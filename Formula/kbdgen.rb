@@ -7,8 +7,8 @@ class Kbdgen < Formula
   version "0.5.0"
   sha256 "da5c3ca2bacae518d5157b053ee91f43a025fbba13bbbf284b8c1b9f74bde829"
 
-  depends_on "python"
   depends_on "imagemagick"
+  depends_on "python"
 
   resource "lxml" do
     url "https://files.pythonhosted.org/packages/ca/63/139b710671c1655aed3b20c1e6776118c62e9f9311152f4c6031e12a0554/lxml-4.2.4.tar.gz"
