@@ -3,9 +3,9 @@ class Kbdgen < Formula
 
   desc "Generate keyboards and keyboard layouts for various operating systems"
   homepage "https://divvun.github.io/kbdgen/"
-  url "https://github.com/divvun/kbdgen/archive/b830205.tar.gz"
-  version "0.5.0"
-  sha256 "da5c3ca2bacae518d5157b053ee91f43a025fbba13bbbf284b8c1b9f74bde829"
+  url "https://github.com/divvun/kbdgen/archive/v1.0.7.tar.gz"
+  version "1.0.7"
+  sha256 "1b6331f532713cc7ee878d1920c7d01626930bc110354de4d3caca418fc5212a"
 
   depends_on "imagemagick"
   depends_on "python"
